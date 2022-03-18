@@ -1,0 +1,73 @@
+.jsOff ul#tabs {
+	line-height: 1.5;
+	margin: 1.125em 0;
+}
+.jsOn .tab-section {
+display: none;
+}
+.jsOn ul#tabs {
+	background: #2da888;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+.jsOn ul#tabs:after{
+	clear: both;
+	content: '';
+	display: table;
+}
+.jsOn ul#tabs li {
+	display: block;
+	float: left;
+}
+.jsOn ul#tabs a {
+	border-right: 1px solid #2da888;
+	color: white;
+	display: block;
+	padding: 0.5em 1.125em;
+	text-decoration: none;
+}
+.jsOn ul#tabs li:first-child a {
+	border-top-left-radius: 7px;
+}
+.jsOn ul#tabs a:hover {
+	background: #8cc152;
+	transform: translateY(-5px);
+}
+.jsOn .tab-section{
+	background: grey;
+	color: white;
+	padding: 2em;
+}
+.jsOn .tab-section h2 {
+	margin-top: 0;
+}
+.jsOn ul#tabs a.current {
+	background-color: #2da888;
+}
+.btn {
+    display: block;
+    width: 4%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #2da888;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover {
+    transform: translateY(-5px);
+    background: #8cc152;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
